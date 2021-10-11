@@ -23,6 +23,6 @@ services:
       - '5000:5000'
     volumes:
       - type: bind
-        source: /elk-yml/logstash_pipeline/04c0c9bd63c3/ports.conf 
+        source: /elk-yml/logstash_pipeline/ports.conf 
         target: /usr/share/logstash/pipeline/ports.conf 
         read_only: true
